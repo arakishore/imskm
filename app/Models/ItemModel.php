@@ -31,7 +31,6 @@ class ItemModel extends Model
         'search_name',
         'status_flag',
         'deleted_at'
-
     ];
 
     protected $useTimestamps = true;
