@@ -1,0 +1,116 @@
+acc_lc_party_address_mst_t
+acc_local_party_mst_t
+ams_item_group_mst_t
+ams_item_mst_t
+com_city_mst_t
+com_company_address_mst_t
+com_company_bank_mst_t
+com_company_misc_no_detl_mst_t
+com_company_mst_t
+com_country_mst_t
+com_financial_year_mst_t
+com_location_address_mst_t
+com_location_mst_t
+com_lookup_mst_t
+com_lookup_values_mst_t
+com_state_mst_t
+com_wht_mst_t
+user_m
+user_login_log
+
+
+
+==============
+user_id	
+is_employee	
+username	
+pass_crypted	
+gender	
+lastname	
+firstname	
+address	
+zip	
+town	
+fk_state	
+fk_country	
+birth	
+user_mobile	
+email	
+idpers1	
+idpers2	
+datelastlogin	
+datepreviouslogin	
+iplastlogin	
+ippreviouslogin	
+photo	
+fk_location_id	
+entered_by
+created_at
+modified_by
+updated_at
+deleted_at
+
+
+user_id	 	
+3	login_time	
+4	ip_address	
+5	browser	
+6	os	
+7	device	
+8	status_flag = success', 'failure
+9	 
+
+
+================
+
+location_id 
+	2	location_name
+	3	location_short_name
+	4	location_description
+	5	location_status
+	6	location_sort_index
+	7	entered_by
+	8	created_at
+	9	modified_by
+	10	updated_at
+	11	machine_name
+	12	shared_location_id
+entered_by
+created_at
+modified_by
+updated_at
+deleted_at
+==================
+
+
+
+bizodelite@gmail.com
+
+
+
+com_country_mst_t
+
+country_id
+country_name
+country_short_name
+entered_by
+created_at
+modified_by
+updated_at
+deleted_at
+ 
+
+
+State
+
+state_id	
+state_name
+state_short_name
+state_sort_index
+country_id
+entered_by
+created_at
+modified_by
+updated_at
+deleted_at
+machine_name
